@@ -13,7 +13,7 @@ const Login=(props)=>{
   const { register, handleSubmit, errors } = useForm();
 
 
-const url = 'http://localhost:3001/authentication';
+const url = 'http://ec2-52-14-39-59.us-east-2.compute.amazonaws.com:3001/authentication';
   
 const onSubmit = (data, e) => {
   e.preventDefault();
