@@ -20,7 +20,7 @@ const StudentHome=(props)=>{
     const history = useHistory();
 
 
-    const url='http://localhost:3001/student/'+username;
+    const url='http://ec2-52-14-39-59.us-east-2.compute.amazonaws.com:3001/student/'+username;
     useEffect(() => {
         
         console.log(url);
