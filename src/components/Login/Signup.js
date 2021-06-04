@@ -107,7 +107,7 @@ return(
           </div>
           <br/>
           <button className='form-input-btn' type='submit' >
-            Register
+            Register 
           </button>
           <br/>
           <span className='form-input-login'>
